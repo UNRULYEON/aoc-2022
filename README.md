@@ -7,11 +7,11 @@
 Run the project with
 
 ```bash
-deno run index.ts
+deno run --allow-read index.ts
 ```
 
 or in watch mode
 
 ```bash
-deno run --watch index.ts
+deno run --watch --allow-read index.ts
 ```
