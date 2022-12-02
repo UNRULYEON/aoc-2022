@@ -1,0 +1,1 @@
+export const getDayInput = (day: number) => Deno.readTextFileSync(`days/${day}/input.txt`)
