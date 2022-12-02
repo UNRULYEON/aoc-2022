@@ -27,7 +27,8 @@ const program = () => {
 
   const totals = input.map(calorieCollection => calorieCollection.reduce((prev, curr) => prev + curr, 0))
 
-  console.log(totals.sort((a, b) => b - a)[0])
+  console.log('Part 1 -', totals.sort((a, b) => b - a)[0])
+  console.log('Part 2 -', totals.sort((a, b) => b - a).slice(0, 3).reduce((prev, curr) => prev + curr, 0))
 }
 
 export default program
